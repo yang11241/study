@@ -1,0 +1,9 @@
+{% for category in category_list%}
+    <ul>
+    {{ category.code }}
+    {{ category.main_category }}
+    </ul>
+{% endfor %}
+
+{{ category_list.0.code }} {{ category_list.0.main_category}}
+{{ category_list.1.code }} {{ category_list.1.main_category}}
