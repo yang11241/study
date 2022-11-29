@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'testapp.apps.TestappConfig'
+    'testapp.apps.TestappConfig',
+    'qatar2022.apps.Qatar2022Config'
 ]
 
 MIDDLEWARE = [
